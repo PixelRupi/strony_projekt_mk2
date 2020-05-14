@@ -1,0 +1,183 @@
+body{
+  background-color: #1a1a1a;
+  margin: 0 !important;
+}
+
+#header{
+  color: #ffffff;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  clear: both;
+  border-style: dotted;
+  border-color: red;
+  background-color: #686e6a;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+}
+
+#panel_lewy{
+  color: #ffffff;
+  float: left;
+  background-color: #123123;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 20%;
+  border-style: dotted;
+  border-color: red;
+  background-color: #686e6a;
+  height: 900px;
+}
+
+#panel_prawy{
+  color: #ffffff;
+  float: left;
+  background-color: #534521;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 77%;
+  border-style: dotted;
+  border-color: red;
+  background-color: #686e6a;
+  margin-left: auto;
+  margin-right: auto;
+  height: 900px;
+}
+
+#footer{
+  color: #ffffff;
+  clear: both;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 80px;
+  background-color: #987121;
+  border-style: dotted;
+  border-color: red;
+  background-color: #686e6a;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.zoom {
+
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.zoom:hover {
+  transform: scale(3.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.nav {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 20%;
+}
+
+ol{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 200%;
+}
+
+ol > li{
+    border: 1px solid #ffffff;
+}
+
+.broken-pixel {
+    background-color: #ff00ff;
+    width: 3px;
+    height: 3px;
+    postion: fixed;
+    top: 126px;
+    left: 242px;
+    z-index: 9999;
+}
+
+.kto-z-kim {
+  border: 1px dashed white;
+  font-size: 50px;
+}
+
+.wstep {
+   list-style-type: none;
+   margin: 5px;
+   font-size: 30px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h1:hover {
+  color: red;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+h3:hover {
+  color: red;
+}
+
+.blinking{
+    animation:blinkingText 2.02s;
+}
+@keyframes blinkingText{
+  from {background-color: white;}
+  to {background-color: black;}
+  animation-iteration-count: 1
+
+}
+
+.dowodcy {
+  list-style-type: none;
+  color: #FFFFFF;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.zrodla{
+  color: #797f7b;
+}
+
+.zrodla:hover {
+  color: #ffffff;
+  font-size: 20px;
+}
